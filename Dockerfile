@@ -1,2 +1,2 @@
-FROM ubuntu 
-COPY /var/lib/jenkins/workspace/Docker_CICD/index.html .
+FROM nginx
+COPY . /usr/share/nginx/html/
